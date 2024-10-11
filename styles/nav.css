@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  justify-content: space-between; /* espaço entre */
+}
+
+nav ul {
+  list-style: none; /* para tirar o ponto de lista, dot, ponto, enfim */
+  display: flex;
+}
+
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover; /* para caso a imagem não está na proporção legal */
+  border-radius: 50%; /* para deixar borda redonda, nesse caso a ft fica redonda */
+}
