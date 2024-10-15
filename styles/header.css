@@ -1,0 +1,22 @@
+header {
+  padding-block: 36px;
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+}
+
+#profile > div {
+  max-width: 384px;
+}
+
+#profile h1 {
+  color: var(--text-color-primary);
+  font: var(--text-lg);
+  margin-bottom: 8px;
+}
+
+#profile p {
+  font: var(--text-md);
+}
